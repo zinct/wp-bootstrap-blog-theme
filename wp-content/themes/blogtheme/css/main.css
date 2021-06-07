@@ -1,0 +1,85 @@
+.navbar li {
+  padding: 0 .5rem;
+}
+
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Comment */
+.comment {
+  /* border: black solid 2px;   */
+  padding: 1rem;
+}
+
+.comment-meta a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.commentlist {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-body {
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment p {
+  padding: 1rem;
+}
+
+.comment .children {
+  list-style: none;
+}
+
+.reply a {
+  background-color: royalblue;
+  outline: none;
+  border: none;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+#respond { 
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#respond form p {
+  display: block;
+}
+
+#respond input[type=text], textarea {
+  border-radius: 5px;
+  display: block;
+  outline: none;
+  border: 1px solid #DDDDDD;
+}
+#respond input[type=text]:focus,
+  input[type=email]:focus, 
+  input[type=url]:focus,
+  textarea:focus {
+  border: skyblue 2px solid;
+}
+#respond input[name=submit] {
+  background-color: royalblue;
+  outline: none;
+  border: none;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+/* End Of Comment */
